@@ -1,0 +1,22 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+.background-full {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background-position: bottom;
+    background-size: cover;
+    background-image: url('./image-full.png'); 
+}
+
+.background-bottom {
+    position: absolute;
+    inset: 0;
+    z-index: 20;
+    background-position: bottom;
+    background-size: cover;
+    background-image: url('./image-bottom.png'); 
+}
